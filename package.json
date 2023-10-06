@@ -1,0 +1,28 @@
+{
+  "name": "json_to_tree_visualization_helper",
+  "version": "0.1.0",
+  "description": "npm package to process deep json with specific format to get position of each node to visulize it in tree",
+  "files": [
+    "json_to_tree_visualization_helper_bg.wasm",
+    "json_to_tree_visualization_helper.js",
+    "json_to_tree_visualization_helper.d.ts"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/b1ink0/json_to_tree_visualization_helper",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/b1ink0/json_to_tree_visualization_helper.git"
+  },
+  "keywords": [
+    "json",
+    "tree",
+    "tree-visualization"
+  ],
+  "author": "b1ink0",
+  "module": "json_to_tree_visualization_helper.js",
+  "types": "json_to_tree_visualization_helper.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "license" : "MIT"
+}
